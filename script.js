@@ -8,6 +8,13 @@ function rotateFunction() {
 //$(document).ready(function() {
 	$("#dropdown a").on("click", function (event) {
 
+		function rotateFunction() {
+			document.getElementById("barContainer").classList.toggle("rotateChange");
+			document.getElementById("dropdown").classList.toggle("dropColorChange");
+			document.getElementById("name").classList.toggle("moveName");
+			
+		}
+
 		event.preventDefault();
 
 		const href = $(this).attr("href");
