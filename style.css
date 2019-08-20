@@ -94,7 +94,7 @@ nav a {
 	display: inline-block;
 	padding-top: 30vh;
 	position: absolute;
-	z-index: 9
+	z-index: 9;
 }
 
 .dropdownLinks {
