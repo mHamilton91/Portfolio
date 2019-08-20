@@ -20,7 +20,7 @@ function rotateFunction() {
 		$.ajax({
 			url: href,
 			successful: function(data) {
-				$("#content").fadeOut(2);
+				$("section").fadeOut(2);
 			}
 		});
 		console.log(href);
