@@ -24,12 +24,12 @@ function rotateFunction() {
 		$.ajax({
 			url: href,
 			success: function (data) {
-			  $("section").fadeOut(2000, function () {
+			  $("section").fadeOut(1000, function () {
 				const newPage = $(data).filter("section").html();
 				
 				$("section").html(newPage);
 				
-				$("section").fadeIn(2000);
+				$("section").fadeIn(1000);
 			  });
 			}
 		  });
