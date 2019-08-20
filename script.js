@@ -21,13 +21,13 @@ function rotateFunction() {
 			url: href,
 			success: function (data) {
 			  $("section").fadeOut(250, function () {
-				const newPage = $(data).filter("section").html()
+				const newPage = $(data).filter("section").html();
 				
-				$("section").html(newPage)
+				$("section").html(newPage);
 				
-				$("section").fadeIn(250)
-			  })
+				$("section").fadeIn(250);
+			  });
 			}
-		  })
+		  });
 	});
 //});
