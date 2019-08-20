@@ -95,7 +95,8 @@ nav a {
 	padding-top: 30vh;
 }
 
-#dropdown a {
+.dropdownLinks {
+	color: #FFF;
 	text-decoration: none;
 	margin-bottom: 40px;
 	display: block;
