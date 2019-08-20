@@ -5,7 +5,7 @@ function rotateFunction() {
 		
 	}	
 
-$(document).ready(function() {
+//$(document).ready(function() {
 	$("#dropdown a").on("click", function (event) {
 
 		event.preventDefault();
@@ -25,4 +25,4 @@ $(document).ready(function() {
 		});
 		console.log(href);
 	});
-});
+//});
