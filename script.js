@@ -1,7 +1,7 @@
 function rotateFunction() {
 		document.getElementById("barContainer").classList.toggle("rotateChange");
 		document.getElementById("dropdown").classList.toggle("dropColorChange");
-		document.getElementById("name").classList.toggle("fadeName");
+		document.getElementById("name").classList.toggle("moveName");
 		
 	}	
 
@@ -14,6 +14,7 @@ $(document).ready(function() {
 		console.log(href);
 		window.history.pushState(null, null, href);
 
-
+		$("#dropdown a").removeClass("active");
+		$(this).addClass("active");
 	});
 });

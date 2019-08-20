@@ -58,7 +58,7 @@ nav a {
 	transition: 0.5s;
 }
 
-.fadeName {
+.moveName {
 	transform: translate(-50vw, 0);
 }
 
@@ -117,11 +117,11 @@ nav a {
 }
 /*--------------------------------Dropdown Menu End---------------------------------*/
 
-#currentPageColor {
+#active {
 	color: #E08283;
 }
 
 #content {
-	margin: 0 30px;
+	margin: 100px 30px;
 	color: white;
 }
