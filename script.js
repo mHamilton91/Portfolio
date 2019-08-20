@@ -5,15 +5,15 @@ function rotateFunction() {
 		
 	}	
 
-	document.getElementsById("name").onclick = function(event) {
+	/*document.getElementsById("name").onclick = function(event) {
 		event.preventDefault();
 
-		/*const href = this.attr("href");
+		const href = this.attr("href");
 		window.history.pushState(null, null, href);
 		document.getElementsByTagName("a").removeClass("active");
-		const name = document.getElementById("name");*/
+		const name = document.getElementById("name");
 		 
-	}
+	}*/
 
 //$(document).ready(function() {
 	
