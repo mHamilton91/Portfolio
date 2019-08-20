@@ -20,7 +20,7 @@ $(document).ready(function() {
 		$.ajax({
 			url: href,
 			successful: function(data) {
-				$('content').fadeOut(250);
+				$("#content").fadeOut(250);
 			}
 		})
 	});
