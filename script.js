@@ -11,7 +11,7 @@ $(document).ready(function() {
 		event.preventDefault();
 
 		const href = $(this).attr("href");
-		console.log(href);
+		
 		window.history.pushState(null, null, href);
 
 		$("#dropdown a").removeClass("active");
@@ -22,6 +22,7 @@ $(document).ready(function() {
 			successful: function(data) {
 				$("#content").fadeOut(250);
 			}
-		})
+		});
+		console.log(href);
 	});
 });
