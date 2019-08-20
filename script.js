@@ -20,9 +20,14 @@ function rotateFunction() {
 		$.ajax({
 			url: href,
 			successful: function(data) {
-				$("section").fadeOut(2);
+				$("section").fadeOut(250, function () {
+					const newPage = $(data).filter("section").html();
+
+					$("section").html(newPage);
+
+					$("section").fadeIn(250);
+				});
 			}
 		});
-		console.log(href);
 	});
 //});
