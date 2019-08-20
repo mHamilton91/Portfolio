@@ -29,7 +29,7 @@ function rotateFunction() {
 				
 				$("section").html(newPage);
 				
-				$("section").fadeIn(500);
+				$("section").fadeIn(1000);
 			  });
 			}
 		  });
