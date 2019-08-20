@@ -36,7 +36,7 @@ function rotateFunction() {
 		$.ajax({
 			url: href,
 			success: function (data) {
-			  $("section").fadeOut(500, function () {
+			  $("section").fadeOut(100, function () {
 				const newPage = $(data).filter("section").html();
 				
 				$("section").html(newPage);
