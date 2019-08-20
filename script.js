@@ -19,15 +19,15 @@ function rotateFunction() {
 
 		$.ajax({
 			url: href,
-			successful: function(data) {
-				$("section").fadeOut(250, function () {
-					const newPage = $(data).filter("section").html();
-
-					$("section").html(newPage);
-
-					$("section").fadeIn(250);
-				});
+			success: function (data) {
+			  $("section").fadeOut(250, function () {
+				const newPage = $(data).filter("section").html()
+				
+				$("section").html(newPage)
+				
+				$("section").fadeIn(250)
+			  })
 			}
-		});
+		  })
 	});
 //});
