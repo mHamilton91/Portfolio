@@ -16,5 +16,12 @@ $(document).ready(function() {
 
 		$("#dropdown a").removeClass("active");
 		$(this).addClass("active");
+
+		$.ajax({
+			url: href,
+			successful: function(data) {
+				$('content').fadeOut(250);
+			}
+		})
 	});
 });
