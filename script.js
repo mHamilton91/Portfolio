@@ -6,6 +6,16 @@ function rotateFunction() {
 	}	
 
 //$(document).ready(function() {
+	document.getElementsById("name").onclick = function(event) {
+		event.preventDefault();
+
+		const href = this.attr("href");
+		window.history.pushState(null, null, href);
+		document.getElementsByTagName("a").removeClass("active");
+		const name = document.getElementById("name");
+		 
+	}
+
 	$("#dropdown a").on("click", function (event) {
 
 		document.getElementById("barContainer").classList.toggle("rotateChange");
