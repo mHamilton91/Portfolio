@@ -99,10 +99,11 @@ nav a {
 
 .dropdownLinks {
 	color: #FFF;
-	font-size: 20px;
+	font-size: 25px;
 	text-decoration: none;
 	margin-bottom: 40px;
-	display: block;
+	display: inline-block;
+	width: auto;
 }
 
 .dropChange {
