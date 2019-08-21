@@ -126,20 +126,11 @@ nav a {
 /*--------------------------------Dropdown Menu End---------------------------------*/
 
 section {
-	margin: 150px 30px 20px 30px;
-	max-width: 1000px;
+	margin-top: 150px;
+	background-color: rgba(51, 51, 51, 0.6);
 	color: white;
 	font-size: 22px;
-	background-color: rgba(0, 0, 0, 0.6);
-	/*background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
-	border-radius: 20px;
 	padding: 30px;
-}
-
-@media only screen and (min-width: 1000px) {
-	section{
-		margin: 150px auto 20px 20px;
-	} 
 }
 
 section h2 {
@@ -150,5 +141,10 @@ section h2 {
 section p {
 	line-height: 30px;
 	padding-left: 20px;
+	margin: 0 auto;
 }
 
+#content {
+	margin: 0 auto;
+	max-width: 900px;
+}
