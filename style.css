@@ -90,6 +90,10 @@ nav a {
 	width: auto;
 }
 
+.dropdownLinks:hover {
+	color: #E08283;
+}
+
 .dropChange {
 	background-color: rgba(0, 0, 0, 0.0);
 	height: 100vh;
