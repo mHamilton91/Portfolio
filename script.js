@@ -1,5 +1,5 @@
 function rotateFunction() {
-		document.getElementById("barContainer").classList.toggle("rotateChange");
+		document.getElementById("barMenu").classList.toggle("rotateChange");
 		document.getElementById("dropdown").classList.toggle("dropColorChange");
 		document.getElementById("name").classList.toggle("moveName");
 		
@@ -20,7 +20,7 @@ function rotateFunction() {
 
 	$("#dropdown a").on("click", function (event) {
 
-		document.getElementById("barContainer").classList.toggle("rotateChange");
+		document.getElementById("barMenu").classList.toggle("rotateChange");
 		document.getElementById("dropdown").classList.toggle("dropColorChange");
 		document.getElementById("name").classList.toggle("moveName");
 

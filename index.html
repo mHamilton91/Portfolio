@@ -12,12 +12,7 @@
 <body>
 	<nav id="navbar">
 		<a id="name" href="index.html"><h1>Martin <span id="lastName">Hamilton</span></h1></a>
-		<!--<div id="barContainer" onclick="rotateFunction()">
-			<div class="bar"></div>
-			<div class="bar"></div>
-			<div class="bar"></div>
-		</div>-->
-		<i id="barContainer" class="fas fa-bars" onclick="rotateFunction()"></i>
+		<i id="barMenu" class="fas fa-bars" onclick="rotateFunction()"></i>
 	</nav>
 	<div id="dropdown" class="dropChange">
 		<a href="about.html" class="dropdownLinks">ABOUT ME</a><br>
@@ -25,10 +20,15 @@
 		<a href="graphics.html" class="dropdownLinks">GRAPHIC DESIGN</a><br>
 		<a href="contact.html" class="dropdownLinks">CONTACT</h2></a>
 	</div>
-	<section>
-		
-		<p><img id="profilePic" class="invPic" src="profilePic.jpg"></img>Designer / Web Developer</p>
-
+	<section id="indexPageStyle">
+		<div id="imageSec">
+			<img id="profilePic" class="invPic" src="profilePic.jpg"></img>
+		</div>
+		<div id="infoSec">
+			<p>Designer / Web Developer</p>
+			<a href=""><i id="github" class="fab fa-github-square socialLinks"></i></a>
+			<a href=""><i id="linkedin" class="fab fa-linkedin socialLinks"></i></a>
+		</div>
 	</section>
 
 
