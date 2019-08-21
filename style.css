@@ -47,10 +47,6 @@ nav a {
 	margin-left: 30px;
 }
 
-#name:hover {
-	transform: translateZ(10px);
-}
-
 .moveName {
 	transform: translate(-50vw, 0);
 }
@@ -69,9 +65,6 @@ nav a {
 	text-shadow: 2px 2px 10px #000;
 }
 
-#barContainer:hover {
-	transform: translateZ(10px);
-}
 
 .rotateChange {
 	transform: rotate(-90deg) translate(0, 0);
