@@ -154,12 +154,17 @@ section p {
 #indexPageStyle {
 	display: grid;
 	grid-template-columns: 250px auto;
-	grid-column-gap: 20px;
+	grid-column-gap: 25px;
 }
 
 #infoSec {
 	position: relative;
-	top: 175px;
+	top: 150px;
 	left: 0;
+}
+
+#title {
+	font-size: 30px;
+	line-height: 50px;
 }
 /*----------------------------------Page Conent End---------------------------------*/
