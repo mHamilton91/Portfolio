@@ -18,22 +18,10 @@ body {
 }
 
 #profilePic {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
-	position: absolute;
-	top: 20px;
-	left: 50px;
 	border: 3px #E08283 solid;
-	transition: opacity 0.5s ease-in;
-}
-
-.invPic {
-	opacity: 0;
-}
-
-.fadeInPic {
-	opacity: 1;
 }
 
 /*-------------------------------Navigation Elements--------------------------------*/
@@ -125,6 +113,7 @@ nav a {
 }
 /*--------------------------------Dropdown Menu End---------------------------------*/
 
+/*--------------------------------Page Conent Section-------------------------------*/
 section {
 	margin-top: 150px;
 	background-color: rgba(51, 51, 51, 0.6);
@@ -148,3 +137,5 @@ section p {
 	margin: 0 auto;
 	max-width: 900px;
 }
+
+/*----------------------------------Page Conent End---------------------------------*/
