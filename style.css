@@ -171,9 +171,17 @@ section p {
 	line-height: 50px;
 }
 
-#tipcalc, #clock {
-	width: 400px;
+.squareImage {
+	width: 50%;
 	height: auto;
+	max-width: 500px;
+	border-radius: 20px;
+}
+
+.recImage {
+	width: 80%;
+	height: auto;
+	max-width: 1000px;
 }
 /*----------------------------------Page Conent End---------------------------------*/
 
