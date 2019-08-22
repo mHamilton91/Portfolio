@@ -123,7 +123,7 @@ section {
 	margin-top: 150px;
 	background-color: rgba(51, 51, 51, 0.6);
 	color: #FFF;
-	font-size: 22px;
+	font-size: 20px;
 	padding: 30px;
 }
 
@@ -133,7 +133,7 @@ section h2 {
 }
 
 section p {
-	line-height: 30px;
+	line-height: 27px;
 	/*padding-left: 20px;*/
 	margin: 0 auto;
 }
@@ -146,6 +146,7 @@ section p {
 .socialLinks {
 	font-size: 45px;
 	color: white;
+	margin-right: 5px;
 }
 
 .socialLinks:hover {
@@ -166,7 +167,7 @@ section p {
 }
 
 #title {
-	font-size: 30px;
+	font-size: 35px;
 	line-height: 50px;
 }
 /*----------------------------------Page Conent End---------------------------------*/
@@ -181,6 +182,9 @@ section p {
 	}
 	#profilePic {
 		width: 200px;
+	}
+	#infoSec {
+		top: 100px;
 	}
 }
 
@@ -202,6 +206,7 @@ section p {
 	#barMenu {
 		font-size: 25px;
 	}
+	
 }
 
 @media only screen and (max-width: 400px) {
@@ -212,7 +217,21 @@ section p {
 	#barMenu {
 		font-size: 20px;
 	}
-	#profilePic {
-		width: 150px;
+	#profilePic, #imageSec {
+		width: 90px;
+	}
+	#title {
+		font-size: 20px;
+	}
+	.socialLinks {
+		font-size: 20px;
+	}
+	#infoSec { 
+		left: -170px;
+		top: 20px;
+		width: 300px;
+	}
+	section {
+		margin-top: 50px;
 	}
 }
