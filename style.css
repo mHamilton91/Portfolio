@@ -32,7 +32,7 @@ nav a {
 
 #name {
 	color: #FFF;
-	font-size: 50px;
+	font-size: 2vw;
 	font-family: 'Livvic', sans-serif;
 	text-shadow: 2px 2px 10px #000;
 	float: left;
@@ -173,10 +173,10 @@ section p {
 /*----------------------------------Page Conent End---------------------------------*/
 
 @media only screen and (max-width: 900px) {
-	#name {
+	/*#name {
 		font-size: 40px;
 		margin-top: 10px;
-	}
+	}*/
 	#barMenu {
 		font-size: 35px;
 	}
@@ -189,20 +189,20 @@ section p {
 }
 
 @media only screen and (max-width: 700px) {
-	#name {
+	/*#name {
 		font-size: 30px;
 		margin-top: 15px;
-	}
+	}*/
 	#barMenu {
 		font-size: 30px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	#name {
+	/*#name {
 		font-size: 20px;
 		margin-top: 25px;
-	}
+	}*/
 	#barMenu {
 		font-size: 25px;
 	}
@@ -226,10 +226,10 @@ section p {
 }
 
 @media only screen and (max-width: 400px) {
-	#name {
+	/*#name {
 		font-size: 15px;
 		margin-top: 30px;
-	}
+	}*/
 	#barMenu {
 		font-size: 20px;
 	}
