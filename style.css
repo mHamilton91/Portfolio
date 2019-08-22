@@ -206,14 +206,6 @@ section p {
 	#barMenu {
 		font-size: 25px;
 	}
-	
-}
-
-@media only screen and (max-width: 400px) {
-	#name {
-		font-size: 15px;
-		margin-top: 30px;
-	}
 	#barMenu {
 		font-size: 20px;
 	}
@@ -234,4 +226,12 @@ section p {
 	section {
 		margin-top: 50px;
 	}
+}
+
+@media only screen and (max-width: 400px) {
+	#name {
+		font-size: 15px;
+		margin-top: 30px;
+	}
+	
 }
