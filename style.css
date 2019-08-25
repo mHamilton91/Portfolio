@@ -247,7 +247,7 @@ section p {
 
 .mySlides {
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	height: auto;
 	display: none;
 	margin: 0 auto;
@@ -256,10 +256,10 @@ section p {
 
 .slideArrows {
 	position: relative;
-	top: 20%;
+	bottom: 200px;
 	background-color: #000;
 	padding: 5px 10px;
-
+	height: 100%;
 }
 
 .slideArrows:hover {
