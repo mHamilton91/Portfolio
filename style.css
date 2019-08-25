@@ -6,7 +6,6 @@
 
 html{
 	width: 100%;
-	height: 100vh;
 }
 
 body {
@@ -17,7 +16,15 @@ body {
 	background-attachment: fixed;
 }
 
-/*-------------------------------Navigation Elements--------------------------------*/
+footer {
+	color: #FFF;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	margin: 30px;
+}
+
+/*----------------------------------Navigation Elements----------------------------------*/
 nav {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
 	/*background-color: blue;*/
@@ -30,27 +37,29 @@ nav a {
 	text-decoration: none;
 }
 
-#name {
-	color: #FFF;
-	font-size: 50px;
-	font-family: 'Livvic', sans-serif;
-	text-shadow: 2px 2px 10px #000;
-	float: left;
-	transition: 0.5s;
-	margin-left: 20px;
-}
+	/*################################# Martin Hamilton ################################*/
+	#name {
+		color: #FFF;
+		font-size: 50px;
+		font-family: 'Livvic', sans-serif;
+		text-shadow: 2px 2px 10px #000;
+		float: left;
+		transition: 0.5s;
+		margin-left: 20px;
+	}
 
-#name:hover {
-	transform: perspective(1000px) translateZ(50px);
-}
+	#name:hover {
+		transform: perspective(1000px) translateZ(50px);
+	}
 
-.moveName {
-	transform: translate(-100vw, 0);
-}
+	.moveName {
+		transform: translate(-100vw, 0);
+	}
 
-#lastName {
-	color: #E08283;
-}
+	#lastName {
+		color: #E08283;
+	}
+	/*############################### Martin Hamilton End ###############################*/
 
 #barMenu {
 	float: right;
@@ -65,11 +74,10 @@ nav a {
 .rotateChange {
 	transform: rotate(-90deg) translate(0, 0);
 }
+/*--------------------------------Navigation Elements End--------------------------------*/
 
 
-/*-----------------------------Navigation Elements End------------------------------*/
-
-/*----------------------------------Dropdown Menu-----------------------------------*/
+/*-------------------------------------Dropdown Menu-----------------------------------*/
 #dropdown {
 	text-align: center;
 	width: 100%;
@@ -109,18 +117,14 @@ nav a {
 .active {
 	color: #E08283;
 }
-/*--------------------------------Dropdown Menu End---------------------------------*/
+/*-----------------------------------Dropdown Menu End-----------------------------------*/
 
-/*--------------------------------Page Conent Section-------------------------------*/
-#profilePic {
-	width: 250px;
-	height: auto;
-	border-radius: 50%;
-	border: 3px #E08283 solid;
-}
 
+/*----------------------------------Page Conent Section----------------------------------*/
 section {
+	width: 100%;
 	margin-top: 150px;
+	/*margin-bottom: 100px;*/
 	background-color: rgba(51, 51, 51, 0.6);
 	color: #FFF;
 	font-size: 20px;
@@ -128,64 +132,116 @@ section {
 }
 
 section h2 {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	border-bottom: 2.5px #E08283 solid;
 }
 
 section p {
 	line-height: 27px;
-	/*padding-left: 20px;*/
-	margin: 0 auto;
 }
 
-#content {
-	margin: 0 auto;
-	max-width: 900px;
-}
+	/*################################ About Page Styling ###############################*/
+	#content {
+		margin: 0 auto;
+		max-width: 900px;
+	}
+	/*################################## About Page End #################################*/
 
-.socialLinks {
-	font-size: 45px;
-	color: white;
-	margin-right: 5px;
-}
+	/*################################# Index Page Styling ##############################*/
+	#profilePic {
+		width: 250px;
+		height: auto;
+		border-radius: 50%;
+		border: 3px #E08283 solid;
+	}
 
-.socialLinks:hover {
-	color: #E08283;
-	transform: perspective(800px) translateZ(80px);
-}
+	.socialLinks {
+		font-size: 45px;
+		color: white;
+		margin-right: 5px;
+	}
 
-#indexPageStyle {
-	display: grid;
-	grid-template-columns: 250px auto;
-	grid-column-gap: 25px;
-}
+	.socialLinks:hover {
+		color: #E08283;
+		transform: perspective(800px) translateZ(80px);
+	}
 
-#infoSec {
-	position: relative;
-	top: 150px;
-	left: 0;
-}
+	#indexPageStyle {
+		display: grid;
+		grid-template-columns: 250px auto;
+		grid-column-gap: 25px;
+	}
 
-#title {
-	font-size: 35px;
-	line-height: 50px;
-}
+	#infoSec {
+		position: relative;
+		top: 150px;
+		left: 0;
+	}
 
-.squareImage {
-	width: 50%;
-	height: auto;
-	max-width: 500px;
-	border-radius: 5px;
-}
+	#title {
+		font-size: 35px;
+		line-height: 50px;
+	}
+	/*################################### Index Page End ################################*/
 
-.recImage {
-	width: 80%;
-	height: auto;
-	max-width: 1000px;
-	border-radius: 5px;
-}
-/*----------------------------------Page Conent End---------------------------------*/
+	/*############################### Project Page Sytling ##############################*/
+	.squareImage {
+		width: 100%;
+		height: auto;
+		max-width: 350px;
+		border-radius: 5px;
+	}
 
+	.recImage {
+		width: 80%;
+		height: auto;
+		max-width: 500px;
+		border-radius: 5px;
+	}
+
+	#projectSec {
+		margin: 0 auto;
+		max-width: 1500px;
+		display: grid;
+		grid-template-rows: repeat(5, auto);
+		grid-row-gap: 50px;
+	}
+
+	.imgRight {
+		display: grid;
+		grid-column-gap: 3%;
+		text-align: right;
+	}
+
+	.imgLeft {
+		display: grid;
+		grid-column-gap: 3%;
+	}
+
+	#tipCalc {
+		grid-template-columns: 77% 20%;
+	}
+
+	#clock {
+		grid-template-columns: 20% 77%;
+	}
+
+	#drumKit, #lumi {
+		grid-template-columns: 62% 35%;
+	}
+
+	#leona {
+		grid-template-columns: 35% 62%;
+	}
+
+	#leona img, #drumKit img, #lumi img {
+		margin: 0 auto;
+	}
+	/*################################## Project Page End ###############################*/
+
+/*------------------------------------Page Conent End------------------------------------*/
+
+/*-------------------------------------Media Queries-------------------------------------*/
 @media only screen and (max-width: 900px) {
 	#name {
 		font-size: 40px;
@@ -249,3 +305,4 @@ section p {
 	}
 	
 }
+/*-----------------------------------Media Queries End-----------------------------------*/

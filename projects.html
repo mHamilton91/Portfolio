@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Martin Hamilton</title>
-	<link rel="icon" href="MH_Logo.png">
-	<link rel="icon" href="MH_Logo.png">
-	<link rel="stylesheet" href="style.css" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<nav id="navbar">
-		<a id="name" class="solidName" href="index.html"><h1>Martin <span id="lastName">Hamilton</span></h1></a>
-		<i id="barMenu" class="fas fa-bars" onclick="rotateFunction()"></i>
-	</nav>
-	<div id="dropdown" class="dropChange">
-		<a href="about.html" class="dropdownLinks">ABOUT ME</a><br>
-		<a href="projects.html" class="dropdownLinks">PROJECTS</a><br>
-		<a href="graphics.html" class="dropdownLinks">GRAPHIC DESIGN</a><br>
-		<a href="contact.html" class="dropdownLinks">CONTACT</a>
-    </div>
-    <section>
-		<h2>PROJECTS</h2>
-		<div id="projectSec">
-			<p></p><img class="squareImage" src="TipCalc.png"></img>
-			<p></p><img class="squareImage" src="Clock.png"></img>
-			<p></p><img class="recImage" src="DrumKit.png"></img>
-			<p></p><img class="recImage" src="Leona.png"></img>
-			<p></p><img class="recImage" src="LumiExampleLandingPage.png"></img>
+	<head>
+		<title>Martin Hamilton</title>
+		<link rel="icon" href="MH_Logo.png">
+		<link rel="icon" href="MH_Logo.png">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav id="navbar">
+			<a id="name" class="solidName" href="index.html"><h1>Martin <span id="lastName">Hamilton</span></h1></a>
+			<i id="barMenu" class="fas fa-bars" onclick="rotateFunction()"></i>
+		</nav>
+		<div id="dropdown" class="dropChange">
+			<a href="about.html" class="dropdownLinks">ABOUT ME</a><br>
+			<a href="projects.html" class="dropdownLinks">PROJECTS</a><br>
+			<a href="graphics.html" class="dropdownLinks">GRAPHIC DESIGN</a><br>
+			<a href="contact.html" class="dropdownLinks">CONTACT</a>
 		</div>
-	</section>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="script.js"></script>
-</body>
+		<section>
+			<h2>PROJECTS</h2>
+			<div id="projectSec">
+				<div id="tipCalc" class="imgRight">
+					<p>The tip calculator is a Javascript project that I found while exploring CodePen. 
+						This project was one of the first that projects I did using Javascript after I had gained enough experience with HTML and CSS.
+						It is a very simple web app that once takes the bill amount, a percentage rating based on a service rating, and the number of 
+						people that the bill will be split between to calculate the proper tip.</p>
+					<img class="squareImage" src="TipCalc.png"></img>
+				</div>
+				<hr>
+				<div id="clock" class="imgLeft">
+					<img class="squareImage" src="Clock.png"></img>
+					<p>The Javascript clock project the second project that I completed while working 
+						the 30 Days of Javascript coding challenge. The project takes in the current time and then sets the degrees based on the respective time 
+						unit, seconds, minutes, and hours.</p>
+				</div>
+				<hr>
+				<div id="drumKit" class="imgRight">
+					<p>The interactive drum kit page was the first 30 Days of Javascript 
+						project that I completed. The page is set up so that the user can either press the keyboard keys marked for each part of the drum or the user can 
+						click on the buttons to play the corresponding drum sound. The original project didn't address the user being able to click on the buttons
+						but I felt that it would allow the user more control and it added the ability to play the sounds on a smart phone or tablet.</p>
+						<img class="recImage" src="DrumKit.png"></img>
+				</div>
+				<hr>
+				<div id="leona" class="imgLeft">
+					<img class="recImage" src="Leona.png"></img>
+					<p>The Leona band page is a page that I am currently working on for a 
+						friend's band to start on a personal project to work on my development skills. The website, currently, does not have any Javascript but there are plans 
+						to add much more to the website as things move forward. This is the first website that I have worked on with a customer to work on the functionality 
+						and design of the website.</p>
+				</div>
+				<hr>
+				<div id="lumi" class="imgRight">
+					<p>The product landing page is a project that I did while following the 
+						Free Code Camp projects at the end of the HTML/CSS section. The page features only HTML and CSS. I found the LUMI keyboard on Kickstarter 
+						and decided to use this as my landing page since I could easily pull information that came directly from the Kickstarter campaign to fill 
+						out the information for the product landing page.</p>
+						<img class="recImage" src="LumiExampleLandingPage.png"></img>
+				</div>
+			</div>
+		</section>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+	<footer>
+		<p>Copyright © 2019</p>
+	</footer>
 </html>
