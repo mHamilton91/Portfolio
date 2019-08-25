@@ -15,6 +15,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-attachment: fixed;
+	height: 100vh;
 }
 
 footer {
