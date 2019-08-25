@@ -243,6 +243,39 @@ section p {
 
 /*------------------------------------Page Conent End------------------------------------*/
 
+#slider {
+	max-height: 500px;
+}
+
+.mySlides {
+	max-width: 800px;
+	height: auto;
+	display: none;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.slideArrows {
+	position: relative;
+	top: 20%;
+	background-color: #000;
+	padding: 5px 10px;
+
+}
+
+.slideArrows:hover {
+	background-color: #FFF;
+	color: #E08283;
+}
+
+.fa-chevron-left {
+	float: left;
+}
+
+.fa-chevron-right {
+	float: right;
+}
+
 /*-------------------------------------Media Queries-------------------------------------*/
 @media only screen and (max-width: 900px) {
 	#name {
