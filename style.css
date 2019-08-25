@@ -243,11 +243,10 @@ section p {
 
 /*------------------------------------Page Conent End------------------------------------*/
 
-#slider {
-	max-height: 500px;
-}
+
 
 .mySlides {
+	width: 100%;
 	max-width: 800px;
 	height: auto;
 	display: none;
