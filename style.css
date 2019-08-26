@@ -252,37 +252,23 @@ section p {
 }
 
 .slideArrows {
-    color: #E08283;
+    color: #FFF;
     position: relative;
     padding: 25vh 25px 0 25px;
-    font-size: 25px;
+    font-size: 4vh;
     height: 100%;
 }
 
 .slideArrows:hover {
-    cursor: pointer;
+	cursor: pointer;
+	color: #E08283;
 }
 
 .fa-chevron-left {
     float: left;
-    /*border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;*/
 }
-
-.fa-chevron-left:hover {
-    /*background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));*/
-    color: #FFF;
-}
-
 .fa-chevron-right {
     float: right;
-    /*border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;*/
-}
-
-.fa-chevron-right:hover {
-    /*background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));*/
-    color: #FFF;
 }
 
 /*-------------------------------------Media Queries-------------------------------------*/
