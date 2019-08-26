@@ -13,7 +13,6 @@ function slideChange(n) {
 }
 
 function slideShow(n) {
-	var container = document.getElementById("slider");
 	var images = ["GhostBeer.png",
 					"GreyjoyBeer.png",
 					"lannisterBeer.png",
@@ -31,10 +30,8 @@ function slideShow(n) {
 					"backspaceFlyer.png"]
 	if (n > 15) {slideIndex = 1}
 	if (n < 1) {slideIndex = 15}
-	console.log(slideIndex);
-	console.log(`Image is ${images[slideIndex-1]}`);
-	container.style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`
-	container.style.backgroundSize = "contain";
+	document.getElementById("slider").style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`
+	document.getElementById("slider").style.backgroundSize = "contain";
 }
 
 //$(document).ready(function() {
