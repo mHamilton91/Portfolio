@@ -6,32 +6,36 @@ function rotateFunction() {
 	}	
 
 var slideIndex = 1;
-showDivs(slideIndex);
+slideShow(slideIndex);
 
-function plusDivs(n) {
-	showDivs(slideIndex += n);
+function slideChange(n) {
+	slideShow(slideIndex += n);
 }
 
-function showDivs(n) {
-	var i;
-	var x = document.getElementsByClassName("mySlides");
-	if (n > x.length) {slideIndex = 1}
-	if (n < 1) {slideIndex = x.length}
-	for (i = 0; i < x.length; i++) {
-	x[i].style.display = "none";  
-	}
-	x[slideIndex-1].style.display = "block";  
+function slideShow(n) {
+	var container = document.getElementById("slider");
+	var images = ["GhostBeer.png",
+					"GreyjoyBeer.png",
+					"lannisterBeer.png",
+					"nightsWatchBeer.png",
+					"targaryenBeer.png",
+					"winterfellBeer.png",
+					"leonaGlitch.png",
+					"leonaParticle.png",
+					"leonaAlbum.png",
+					"Thieves_Hollow_Logo_Name.png",
+					"Thieves_Hollow_Logo_Name_Pizza.png",
+					"Thieves_Hollow_Logo_Name_Purple.png",
+					"Thieves_Hollow_Logo_Name_Space.png",
+					"Thieves_Hollow_Logo_Name_Stripes.png",
+					"backspaceFlyer.png"]
+	if (n > 15) {slideIndex = 1}
+	if (n < 1) {slideIndex = 15}
+	console.log(slideIndex);
+	console.log(`Image is ${images[slideIndex-1]}`);
+	container.style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`
+	container.style.backgroundSize = "contain";
 }
-
-	/*document.getElementsById("name").onclick = function(event) {
-		event.preventDefault();
-
-		const href = this.attr("href");
-		window.history.pushState(null, null, href);
-		document.getElementsByTagName("a").removeClass("active");
-		const name = document.getElementById("name");
-		 
-	}*/
 
 //$(document).ready(function() {
 	

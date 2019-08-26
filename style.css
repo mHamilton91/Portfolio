@@ -243,36 +243,47 @@ section p {
 
 /*------------------------------------Page Conent End------------------------------------*/
 
-
-
-.mySlides {
-	width: 100%;
-	max-width: 1000px;
-	height: auto;
-	display: none;
-	margin: 0 auto;
-	border-radius: 5px;
+#slider {
+    width: 90%;
+    max-width: 900px;
+    height: 50vh;
+    margin: 0 auto;
+	border-radius: 20px;
+	border: 1px #000 solid;
 }
 
 .slideArrows {
-	position: relative;
-	bottom: 200px;
-	background-color: #000;
-	padding: 5px 10px;
-	height: 100%;
+    color: #E08283;
+    position: relative;
+    padding: 25vh 25px 0 25px;
+    font-size: 25px;
+    height: 100%;
 }
 
 .slideArrows:hover {
-	background-color: #FFF;
-	color: #E08283;
+    cursor: pointer;
 }
 
 .fa-chevron-left {
-	float: left;
+    float: left;
+    /*border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;*/
+}
+
+.fa-chevron-left:hover {
+    /*background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));*/
+    color: #FFF;
 }
 
 .fa-chevron-right {
-	float: right;
+    float: right;
+    /*border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;*/
+}
+
+.fa-chevron-right:hover {
+    /*background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));*/
+    color: #FFF;
 }
 
 /*-------------------------------------Media Queries-------------------------------------*/
