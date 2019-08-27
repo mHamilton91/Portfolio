@@ -34,7 +34,7 @@ function slideShow(n) {
 	document.getElementById("slider").style.backgroundSize = "contain";
 }
 
-//$(document).ready(function() {
+$(document).ready(function() {
 	
 
 	$("#dropdown a").on("click", function (event) {
@@ -65,4 +65,4 @@ function slideShow(n) {
 			}
 		  });
 	});
-//});
+});
