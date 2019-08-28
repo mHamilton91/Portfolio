@@ -4,3 +4,40 @@ function rotateFunction() {
 		document.getElementById("name").classList.toggle("moveName");
 		
 	}	
+
+var slideIndex = 1;
+slideShow(slideIndex);
+
+function slideChange(n) {
+	slideShow(slideIndex += n);
+}
+
+function slideShow(n) {
+	var images = ["GhostBeer.png",
+					"GreyjoyBeer.png",
+					"lannisterBeer.png",
+					"nightsWatchBeer.png",
+					"targaryenBeer.png",
+					"winterfellBeer.png",
+					"leonaGlitch.png",
+					"leonaParticle.png",
+					"leonaAlbum.png",
+					"Thieves_Hollow_Logo_Name.png",
+					"Thieves_Hollow_Logo_Name_Pizza.png",
+					"Thieves_Hollow_Logo_Name_Purple.png",
+					"Thieves_Hollow_Logo_Name_Space.png",
+					"Thieves_Hollow_Logo_Name_Stripes.png",
+					"backspaceFlyer.png"]
+	if (n > 15) {slideIndex = 1}
+	if (n < 1) {slideIndex = 15}
+	let imgSlide = document.querySelector(".slider");
+
+	imgSlide.style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`;
+	imgSlide.style.backgroundSize = "contain";
+}
+
+//$(document).ready(function() {
+	
+
+	
+//});
