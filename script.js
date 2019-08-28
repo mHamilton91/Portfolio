@@ -30,8 +30,10 @@ function slideShow(n) {
 					"backspaceFlyer.png"]
 	if (n > 15) {slideIndex = 1}
 	if (n < 1) {slideIndex = 15}
-	document.getElementById("slider").style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`
-	document.getElementById("slider").style.backgroundSize = "contain";
+	let imgSlide = document.querySelector(".slider");
+
+	imgSlide.style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`;
+	imgSlide.style.backgroundSize = "contain";
 }
 
 //$(document).ready(function() {
