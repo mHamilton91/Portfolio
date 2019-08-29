@@ -13,7 +13,7 @@ body {
 	background-image: url(notebook.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right top;
+	background-position: right center;
 	background-attachment: fixed;
 	height: 100vh;
 }

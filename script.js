@@ -27,9 +27,12 @@ function slideShow(n) {
 					"Thieves_Hollow_Logo_Name_Purple.png",
 					"Thieves_Hollow_Logo_Name_Space.png",
 					"Thieves_Hollow_Logo_Name_Stripes.png",
-					"backspaceFlyer.png"]
-	if (n > 15) {slideIndex = 1}
-	if (n < 1) {slideIndex = 15}
+					"backspaceFlyer.png",
+					"ForestTriangle.jpg",
+					"greenCave.png",
+					"cave.png"]
+	if (n > 18) {slideIndex = 1}
+	if (n < 1) {slideIndex = 18}
 	let imgSlide = document.querySelector(".slider");
 
 	imgSlide.style.background = `url(${images[slideIndex-1]}) no-repeat scroll center center`;
